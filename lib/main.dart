@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Instagram',
       theme: ThemeData(
         iconTheme: IconThemeData(color: Color.fromRGBO(40, 40, 40, 1)),
         appBarTheme: AppBarTheme(
