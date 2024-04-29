@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone/home_page.dart';
+import 'package:insta_clone/search_page.dart';
 
 
 void main() {
@@ -39,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: HomePage(),
+      body: currentPage == 1 ? SearchPage() : HomePage(),
       bottomNavigationBar: BottomAppBar(
         child: Row(
           children: [
